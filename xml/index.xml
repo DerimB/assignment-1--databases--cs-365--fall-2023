@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<university>
+    <student>
+        <First-name>Gordon</First-name>
+        <Middle-name>Matthew</Middle-name>
+        <Last-name>Sumner</Last-name>
+        <Preferred-name>Sting</Preferred-name>
+        <Student-ID>1234567</Student-ID>
+        <Email>sting@thepolice.com</Email>
+        <Phone>212.123.4567</Phone>
+        <Year-status>first year</Year-status>
+        <GPA>4.0</GPA>
+        <Major>Music</Major>
+        <Minor>English</Minor>
+        <Enrollment-status>full-time</Enrollment-status>
+        <Advisor>Andy Summers</Advisor>
+        <Data-of-inital-enrollement>08-25-1969</Data-of-inital-enrollement>
+        <Graduation-date>05-01-1973</Graduation-date>
+    </student>
+</university>

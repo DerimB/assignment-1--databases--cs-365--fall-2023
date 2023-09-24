@@ -1,0 +1,17 @@
+<!ELEMENT university (student)+>
+<!ELEMENT student (First-name,Middle-name,Last-name,Preferred-name,Student-ID,Email,Phone,Year-status,GPA,Major+,Minor+,Enrollment-status,Advisor,Date-of-initial-enrollment,Graduation-date)>
+<!ELEMENT First-name (#PCDATA)>
+<!ELEMENT Middle-name (#PCDATA)>
+<!ELEMENT Last-name (#PCDATA)>
+<!ELEMENT Preferred-name (#PCDATA)>
+<!ELEMENT Student-ID (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Year-status (#PCDATA)>
+<!ELEMENT GPA (#PCDATA)>
+<!ELEMENT Major (#PCDATA)>
+<!ELEMENT Minor (#PCDATA)>
+<!ELEMENT Enrollment-status (#PCDATA)>
+<!ELEMENT Advisor (#PCDATA)>
+<!ELEMENT Data-of-intial-enrollment (#PCDATA)>
+<!ELEMENT Graduation-date (#PCDATA)>
