@@ -1,27 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,500;1,6..12,200;1,6..12,500&display=swap');
-
 :root,
 :root::before,
 student,
 student::before,
-personal-information, university-information {
+personal-information,
+university-information {
   display: block;
 }
 
-:root {
-    margin: 0 auto;
-    width: 1200px;
-    font: 200 16px 'Nunito Sans', serif;
-  }
-  
+university {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 20px 'Times New Roman', serif;
+}
+
 :root::before {
+    border-bottom: solid;
     content: 'University Students';
     text-align: center;
     font-size: 2.5rem;
     margin: 24px 0;
   }
-  
-student::before {
+
+  student::before {
     content: '' attr(name) '';
     font-size: 2rem;
+  }
+  
+  personal-information,
+  university-information {
+    margin-bottom: 20px;
+  }  
+personal-information::before{
+    content: 'Personal Information';
+    border-bottom: solid;
+    border-top: solid;
+}
+university-information::before{
+    content: 'University Information';
+    border-bottom: solid;
+}
+
+first-name::before{
+    content: 'First Name: '
+  }
+
+middle-name::before {
+    content: 'Middle Name: ';
+}
+last-name::before {
+    content: 'Last Name: ';
+}
+preferred-name::before {
+    content: 'Preferred Name: ';
+}
+student-ID::before {
+    content: 'Student ID: ';
+}
+email::before {
+    content: 'Email: ';
+}
+phone::before {
+    content: 'Phone: ';
+}
+year-status::before {
+    content: 'Year Status: ';
+}
+GPA::before {
+    content: 'GPA: ';
+}
+major::before {
+    content: 'Major: ';
+}
+minor::before {
+    content: 'Minor: ';
+}
+enrollment-status::before {
+    content: 'Enrollment Status: ';
+}
+advisor::before {
+    content: 'Advisor: ';
+}
+date-of-initial-enrollment::before {
+    content: 'Date of Initial Enrollment: ';
+}
+graduation-date::before {
+    content: 'Graduation Date: ';
+}
+
+  first-name,middle-name,last-name,preferred-name,student-ID,email,phone,year-status,GPA,major,minor,enrollment-status,advisor,date-of-initial-enrollment, graduation-date {
+      display: block;
+      margin-bottom: 10px;
   }

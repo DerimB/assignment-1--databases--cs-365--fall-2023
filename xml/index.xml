@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet type="text/css" href="../css/style.css"?>
+<?xml-stylesheet type="text/css" href="..\xml\css\style.css"?>
 <!DOCTYPE university SYSTEM "..\xml\dtd\student.dtd"[
 ]>
 <university>
@@ -22,6 +22,27 @@
             <advisor>Andy Summers</advisor>
             <date-of-initial-enrollment>08-25-1969</date-of-initial-enrollment>
             <graduation-date>05-01-1973</graduation-date>
+        </university-information>
+    </student>
+    <student>
+        <personal-information> 
+            <first-name>Kim</first-name>
+            <middle-name>N/A</middle-name>
+            <last-name>Thayil</last-name>
+            <preferred-name>N/A</preferred-name>
+            <student-ID>4567890</student-ID>
+            <email>kim@soundgarden.com</email>
+            <phone>206.123.4567</phone>
+        </personal-information>
+        <university-information>
+            <year-status>second year</year-status>
+            <GPA>3.0</GPA>
+            <major>Philosophy</major>
+            <minor>Music</minor>
+            <enrollment-status>full-time</enrollment-status>
+            <advisor>Chris Cornell</advisor>
+            <date-of-initial-enrollment>08-25-1978</date-of-initial-enrollment>
+            <graduation-date>05-01-1982</graduation-date>
         </university-information>
     </student>
 </university>
