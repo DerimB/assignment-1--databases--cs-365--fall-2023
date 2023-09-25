@@ -1,18 +1,20 @@
 
 <!ELEMENT university (student)+>
-<!ELEMENT student (First-name,Middle-name,Last-name,Preferred-name,Student-ID,Email,Phone,Year-status,GPA,Major,Minor,Enrollment-status,Advisor,Date-of-initial-enrollment,Graduation-date)>
-<!ELEMENT First-name (#PCDATA)>
-<!ELEMENT Middle-name (#PCDATA)>
-<!ELEMENT Last-name (#PCDATA)>
-<!ELEMENT Preferred-name (#PCDATA)>
-<!ELEMENT Student-ID (#PCDATA)>
-<!ELEMENT Email (#PCDATA)>
-<!ELEMENT Phone (#PCDATA)>
-<!ELEMENT Year-status (#PCDATA)>
+<!ELEMENT student (personal-information, university-information)>
+<!ELEMENT personal-information (first-name,middle-name,last-name,preferred-name,student-ID,email,phone)>
+<!ELEMENT first-name (#PCDATA)>
+<!ELEMENT middle-name (#PCDATA)>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT preferred-name (#PCDATA)>
+<!ELEMENT student-ID (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT university-information (year-status,GPA,major,minor,enrollment-status,advisor,date-of-initial-enrollment,graduation-date)>
+<!ELEMENT year-status (#PCDATA)>
 <!ELEMENT GPA (#PCDATA)>
-<!ELEMENT Major (#PCDATA)>
-<!ELEMENT Minor (#PCDATA)>
-<!ELEMENT Enrollment-status (#PCDATA)>
-<!ELEMENT Advisor (#PCDATA)>
-<!ELEMENT Date-of-initial-enrollment (#PCDATA)>
-<!ELEMENT Graduation-date (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT enrollment-status (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT date-of-initial-enrollment (#PCDATA)>
+<!ELEMENT graduation-date (#PCDATA)>

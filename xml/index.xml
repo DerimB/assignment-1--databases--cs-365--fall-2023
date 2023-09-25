@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE university SYSTEM "C:\Users\derim\Documents\GitHub\assignment-1--databases--cs-365--fall-2023\xml\dtd\student.dtd"[
+<?xml-stylesheet type="text/css" href="../css/style.css"?>
+<!DOCTYPE university SYSTEM "..\xml\dtd\student.dtd"[
 ]>
 <university>
     <student>
-        <First-name>Gordon</First-name>
-        <Middle-name>Matthew</Middle-name>
-        <Last-name>Sumner</Last-name>
-        <Preferred-name>Sting</Preferred-name>
-        <Student-ID>1234567</Student-ID>
-        <Email>sting@thepolice.com</Email>
-        <Phone>212.123.4567</Phone>
-        <Year-status>first year</Year-status>
-        <GPA>4.0</GPA>
-        <Major>Music</Major>
-        <Minor>English</Minor>
-        <Enrollment-status>full-time</Enrollment-status>
-        <Advisor>Andy Summers</Advisor>
-        <Date-of-initial-enrollment>08-25-1969</Date-of-initial-enrollment>
-        <Graduation-date>05-01-1973</Graduation-date>
+        <personal-information> 
+            <first-name>Gordon</first-name>
+            <middle-name>Matthew</middle-name>
+            <last-name>Sumner</last-name>
+            <preferred-name>Sting</preferred-name>
+            <student-ID>1234567</student-ID>
+            <email>sting@thepolice.com</email>
+            <phone>212.123.4567</phone>
+        </personal-information>
+        <university-information>
+            <year-status>first year</year-status>
+            <GPA>4.0</GPA>
+            <major>Music</major>
+            <minor>English</minor>
+            <enrollment-status>full-time</enrollment-status>
+            <advisor>Andy Summers</advisor>
+            <date-of-initial-enrollment>08-25-1969</date-of-initial-enrollment>
+            <graduation-date>05-01-1973</graduation-date>
+        </university-information>
     </student>
 </university>
