@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
+<!DOCTYPE university SYSTEM "C:\Users\derim\Documents\GitHub\assignment-1--databases--cs-365--fall-2023\xml\dtd\student.dtd"[
+]>
 <university>
     <student>
         <First-name>Gordon</First-name>
@@ -15,7 +16,7 @@
         <Minor>English</Minor>
         <Enrollment-status>full-time</Enrollment-status>
         <Advisor>Andy Summers</Advisor>
-        <Data-of-inital-enrollement>08-25-1969</Data-of-inital-enrollement>
+        <Date-of-initial-enrollment>08-25-1969</Date-of-initial-enrollment>
         <Graduation-date>05-01-1973</Graduation-date>
     </student>
 </university>
