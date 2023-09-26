@@ -1,6 +1,22 @@
+<!-- ===================================================================
+  The root element: universty
 
+  The university container (root) element must contain one or more
+  student elements, this is shown by the + metacharacter: one
+  required; unlimited allowed.
+  ================================================================== -->
 <!ELEMENT university (student)+>
+
+<!-- ===================================================================
+  The student container element must contain one, and no more than one,
+  personal-information, and university-information elements.
+  ================================================================== -->
 <!ELEMENT student (personal-information, university-information)>
+
+<!-- ===================================================================
+  The personal-information container must contain one, and no more than one,
+  first-name,middle-name,last-name,preferred-name,student-ID,email,phone element.
+  ================================================================== -->
 <!ELEMENT personal-information (first-name,middle-name,last-name,preferred-name,student-ID,email,phone)>
 <!ELEMENT first-name (#PCDATA)>
 <!ELEMENT middle-name (#PCDATA)>
@@ -9,6 +25,10 @@
 <!ELEMENT student-ID (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
+<!-- ===================================================================
+  The university-information container must contain one, and no more than one,
+  year-status,GPA,major,minor,enrollment-status,advisor,date-of-initial-enrollment,graduation-date.
+  ================================================================== -->
 <!ELEMENT university-information (year-status,GPA,major,minor,enrollment-status,advisor,date-of-initial-enrollment,graduation-date)>
 <!ELEMENT year-status (#PCDATA)>
 <!ELEMENT GPA (#PCDATA)>
